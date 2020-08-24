@@ -1,8 +1,7 @@
-version: '3' # docker-compose version
+version: '3' 
 
-# Define the services/containers to be run
 services:
-  angular: myangularapp # name of the first service
-    build: . # the directory of the Dockerfile
+  angular: myangularapp
+    build: .
     ports:
-      - "4200:4200" # port forewarding
+      - "4200:4200" 
