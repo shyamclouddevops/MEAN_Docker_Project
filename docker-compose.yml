@@ -3,4 +3,4 @@ services: # Here we define our service(s)
     angular: 
       build: ./ # Location of our Dockerfile
       ports: 
-        - '4200:4200' # Port mapping
+        - '4201:4201' # Port mapping
